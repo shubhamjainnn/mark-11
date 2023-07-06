@@ -1,0 +1,56 @@
+:root {
+  --primary-color: rgb(200, 88, 12);
+  --primery-dark: rgba(0, 0, 0, 0.895);
+}
+
+html {
+  background-color: var(--primary-color);
+
+  width: 100%;
+}
+
+#container {
+  width: 27%;
+  text-align: center;
+  margin: auto;
+  margin-top: 8rem;
+}
+
+input {
+  width: 100%;
+  margin: 0.5rem;
+  display: block;
+  border: transparent;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: large;
+}
+
+label {
+  color: var(--primery-dark);
+  font-weight: 900;
+  color: rgb(24, 26, 27);
+  font-size: larger;
+}
+
+button {
+  border-radius: 0.5rem;
+  border: 2px solid black;
+  padding: 0.5rem 0.5rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+
+  background-color: var(--primary-color);
+}
+
+h1 {
+}
+
+#output-box {
+  margin-top: 1rem;
+  font-size: x-large;
+  text-align: center;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
